@@ -1,4 +1,6 @@
-const INITIAL_STATE = {};
+const INITIAL_STATE = {
+    showMessage: false
+};
 
 export default (state = INITIAL_STATE,action) =>{
     switch (action.type){
@@ -11,14 +13,22 @@ export default (state = INITIAL_STATE,action) =>{
     }
 };
 
-export const showMessage = () =>{
-    return{
-        type: 'SHOW_MESSAGE'
-    }
-}
+/**
+ * * ActionTypes:
+ * * Objeto contendo todas as actions types
+ */
+ export const Types = {
+    SHOW_MESSAGE: 'SHOW_MESSAGE',
+    HIDE_MESSAGE: 'HIDE_MESSAGE'
+ };
 
-export const hideMessage = () =>{
-    return{
-        type: 'HIDE_MESSAGE'
-    }
-}
+ /**
+  * Action Creators
+  */
+export const Creators = {
+    showMessage: () =>({ type: Types.SHOW_MESSAGE
+    }),
+    hideMessage: () =>({ type: Types.HIDE_MESSAGE
+    })
+    
+};
