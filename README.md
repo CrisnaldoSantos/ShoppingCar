@@ -18,7 +18,7 @@ Aplicação em desenvolvimento que simula uma loja de automóveis de luxo, com o
 ## Tecnologias:
 - NodeJS
 - MongoDB
-- React JS
+- ReactJS
 - Redux
 - Jest
 

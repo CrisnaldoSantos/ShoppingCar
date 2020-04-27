@@ -1,10 +1,16 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, {useEffect} from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Car from '../../components/Car';
+import {getAllCArs} from '../../store/fetchActions'
 
 export default function List() {
 
 	const cars = useSelector((state) => state.cars);
+	const dispatch =  useDispatch();
+
+	useEffect(()=>{
+		dispatch(getAllCArs());
+	},[dispatch]);
 
 	return (
 		<div className="container-fluid">
