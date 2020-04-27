@@ -16,8 +16,11 @@ ShoppingCar
 Aplicação em desenvolvimento que simula uma loja de automóveis de luxo, com o objetivo de estudo prático do redux com hooks.
 
 ## Tecnologias:
+- NodeJS
+- MongoDB
 - React JS
 - Redux
+- Jest
 
 ## Descrição:
 
