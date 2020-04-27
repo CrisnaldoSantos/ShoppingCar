@@ -21,4 +21,4 @@ Aplicação em desenvolvimento que simula uma loja de automóveis de luxo, com o
 
 ## Descrição:
 
-Aplicação em desenvolvimento para estudo prático do redux com a api dos hoos presentes na biblioteca do react-redux.
+Aplicação em desenvolvimento para estudo prático do redux com a api dos hooks presentes na biblioteca do react-redux.
